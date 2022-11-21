@@ -1,0 +1,9 @@
+{
+  "apiKey": "AIzaSyBe07RcuCuMjx9lYwboAfr_QvRmOwwQxqM",
+  "authDomain": "nestjs-fcm-d7391.firebaseapp.com",
+  "databaseURL": "https://nestjs-fcm-d7391-default-rtdb.asia-southeast1.firebasedatabase.app",
+  "projectId": "nestjs-fcm-d7391",
+  "storageBucket": "nestjs-fcm-d7391.appspot.com",
+  "messagingSenderId": "259497344937",
+  "appId": "1:259497344937:web:0b0504e0c8ccd8ea924eb8"
+}
