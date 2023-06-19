@@ -220,7 +220,7 @@
     <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
       <img
         class="h-56 w-full object-cover sm:h-72 md:h-96 lg:h-full lg:w-full"
-        src="https://www.klipfolio.com/gatsby-files/static/1d0d4b2e191a15d080c3857830cdedea/9e562/dashboard-examples-hero.png"
+        src="https://cdn.dribbble.com/userupload/2773310/file/original-8805cbb2d31a4ffd237af14003091ad3.jpg"
         alt=""
       />
     </div>

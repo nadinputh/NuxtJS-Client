@@ -212,7 +212,7 @@
           </div>
           <div class="ml-3">
             <div class="text-base font-medium leading-none text-white">
-              {{ $auth.user.lastName }} {{ $auth.user.firstName }}
+              {{ $auth.user.fullName }}
             </div>
             <div class="text-sm font-medium leading-none text-gray-400">
               @{{ $auth.user.username }}

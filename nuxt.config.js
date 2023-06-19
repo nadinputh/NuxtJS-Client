@@ -51,17 +51,18 @@ export default {
     onFirebaseHosting: false,
     config: JSON.parse(readFileSync('./firebase-config.json')),
     services: {
-      messaging: {
-        createServiceWorker: true,
-        actions: [
-          {
-            action: 'view',
-            url: '/',
-          },
-        ],
-        fcmPublicVapidKey: process.env.FCM_PUBLIC_VAPI_KEY, // OPTIONAL : Sets vapid key for FCM after initialization
-        inject: readFileSync('./firebase-messaging-sw.js'),
-      },
+      messaging: false,
+      // {
+      //   createServiceWorker: true,
+      //   actions: [
+      //     {
+      //       action: 'view',
+      //       url: '/',
+      //     },
+      //   ],
+      //   fcmPublicVapidKey: process.env.FCM_PUBLIC_VAPI_KEY, // OPTIONAL : Sets vapid key for FCM after initialization
+      //   inject: readFileSync('./firebase-messaging-sw.js'),
+      // },
     },
   },
 
